@@ -1,0 +1,28 @@
+{
+	"name": "Xwing",
+	"description": "normal rebel x-wing",
+	"speed": 5.0,
+	"buildPower": 200.0,
+	"engineColor": "45ecff",
+	"flying": true,
+	"health": 30000,
+	"weaponOffsetX": 1,
+	"weaponOffsetY": 1,
+	"weapon": {
+		"name": "OOF",
+		"length": 3.5,
+		"reload": 2,
+		"alternate": true,
+		"bullet": {
+			"speed": 20,
+			"damage": 100,
+			"bulletWidth": 8,
+			"bulletHeight": 23,
+			"frontColor": #ff0000,
+			"backColor": #ff7070,
+			"shootEffect": "shootBig"
+			"hitEffect": "hitFlameSmall",
+			"despawnEffect": "none"
+		}
+	}
+}

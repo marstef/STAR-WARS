@@ -1,0 +1,32 @@
+{
+	"type": "GenericSmelter",
+	"name": "Steel Plate Forge",
+	"description": "Makes steel plates.",
+	"health": 2000,
+	"itemCapacity": 50,
+	"outputItem": {"item": "steel-plate", "amount": 5},
+	"size": 2,
+	"hasPower": true,
+	"hasItems": true,
+	"craftTime": 3,
+	"updateEffect": "smeltsmoke",
+	"consumes": {
+		"power": 1.8,
+		"items": {
+			"items": [
+				{ "item": "titanium", "amount": 5 },
+				{ "item": "scrap", "amount": 5 },
+				{ "item": "lead", "amount": 5 }
+			]
+		}
+	},
+	"requirements": [
+		{ "item": "titanium", "amount": 40 },
+		{ "item": "lead", "amount": 45 },
+		{ "item": "silicon", "amount": 75 }
+	],
+	"category": "crafting",
+	"idleSound": "respawning",
+	"idleSoundVolume": 0.1
+	"research": "kiln"
+}

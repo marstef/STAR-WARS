@@ -1,0 +1,32 @@
+{
+	"type": "GenericSmelter",
+	"name": "Droid Forge",
+	"description": "Makes FRIENDLY droid, dont kill them, they are alive too.",
+	"health": 2000,
+	"itemCapacity": 50,
+	"outputItem": {"item": "droid", "amount": 1},
+	"size": 2,
+	"hasPower": true,
+	"hasItems": true,
+	"craftTime": 10,
+	"updateEffect": "smeltsmoke",
+	"consumes": {
+		"power": 1.8,
+		"items": {
+			"items": [
+				{ "item": "titanium", "amount": 3 },
+				{ "item": "thorium", "amount": 3 },
+				{ "item": "steel-plate", "amount": 3 }
+			]
+		}
+	},
+	"requirements": [
+		{ "item": "titanium", "amount": 100 },
+		{ "item": "thorium", "amount": 50 },
+		{ "item": "steel-plate", "amount": 50 }
+	],
+	"category": "crafting",
+	"idleSound": "respawning",
+	"idleSoundVolume": 0.1
+	"research": "steel-plate-forge"
+}
